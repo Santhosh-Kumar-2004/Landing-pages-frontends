@@ -1,0 +1,31 @@
+:root {
+  /* Light Theme */
+  --bg-color: #f9fafb;
+  --text-color: #111827;
+  --btn-bg: #7c3aed;
+  --btn-text: #ffffff;
+  --accent-color: #037185;
+
+  --bg-color-secondary: #1e1e2f;
+  --text-color-secondary: #f9fafb;
+}
+
+body.dark {
+  /* Dark Theme */
+  --bg-color: #1e1e2f;
+  --text-color: #f9fafb;
+  --btn-bg: #8b5cf6;
+  --btn-text: #ffffff;
+  --accent-color: #22d3ee;
+  
+  --bg-color-secondary: #f9fafb;
+  --text-color-secondary: #111827;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}

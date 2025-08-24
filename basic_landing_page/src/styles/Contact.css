@@ -1,0 +1,132 @@
+.contact-page {
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a1a;
+  /* width: 70%; */
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Top Banner */
+.contact-banner {
+  height: 300px;
+  background-image: url('/assets/hero_image4.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-banner h1 {
+  font-size: 3rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5em 2em;
+  border-radius: 8px;
+}
+
+/* Main Section */
+.contact-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3rem 5vw;
+  width: 67%;
+  margin: auto;
+}
+
+/* Left Form */
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+  max-height: 800px;
+}
+.contact-left h2 {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+.contact-left form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-left input,
+.contact-left textarea {
+  padding: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.contact-left button {
+  padding: 0.9rem;
+  background: #1e90ff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Right Info */
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+  margin-top: 15px;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.contact-item {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.contact-item h4 {
+  margin-bottom: 0.5rem;
+}
+
+/* Map */
+.map-container iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Bottom CTA */
+.contact-cta {
+  height: 300px;
+  background-image: url('/assets/hero_image1.jpg'); /* Replace with your actual CTA image path */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 4rem;
+}
+.cta-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  max-width: 600px;
+}
+.cta-overlay h2 {
+  margin-bottom: 0.5rem;
+}
+.cta-overlay p {
+  margin-bottom: 1rem;
+}
+.cta-overlay button {
+  padding: 0.8rem 2rem;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

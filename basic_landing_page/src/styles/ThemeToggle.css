@@ -1,0 +1,31 @@
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--btn-bg);
+}
+
+.icon-wrapper {
+  transition: transform 0.5s ease, opacity 0.4s ease;
+  opacity: 1;
+}
+
+.icon-wrapper.light {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.icon-wrapper.dark {
+  transform: rotate(180deg);
+  opacity: 1;
+}
